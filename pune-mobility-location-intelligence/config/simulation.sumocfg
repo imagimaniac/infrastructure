@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+    <input>
+        <net-file value="network.net.xml"/>
+        <route-files value="routes.rou.xml"/>
+        <additional-files value="tls.add.xml"/>
+    </input>
+    <time>
+        <begin value="0"/>
+        <end value="3600"/>
+    </time>
+    <output>
+        <tripinfo-output value="../data/tripinfo.xml"/>
+        <summary-output value="../data/summary.xml"/>
+    </output>
+    <processing>
+        <time-to-teleport value="-1"/>
+    </processing>
+    <report>
+        <duration-log.statistics value="true"/>
+    </report>
+</configuration>

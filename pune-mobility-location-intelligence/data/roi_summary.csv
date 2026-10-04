@@ -1,0 +1,6 @@
+metric,value,unit,notes
+avg_wait_pct_red,32.0,%,vs baseline
+queue_avg_pct_red,35.77,%,vs baseline
+fuel_saved_l_per_peak_hr,26.7,L,directional demo
+co2e_avoided_kg_per_peak_hr,69.5,kg,directional demo
+note,offline_demo,,Generated without SUMO binary (TraCI-only env); replace with real sim

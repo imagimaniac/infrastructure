@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<net version="1.20" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/net_file.xsd">
+    <location netOffset="0.00,0.00" convBoundary="0.00,-400.00,800.00,400.00" origBoundary="0.00,-400.00,800.00,400.00" projParameter="!"/>
+
+    <nodes>
+        <node id="A1" x="0.00" y="400.00" type="traffic_light"/>
+        <node id="A2" x="0.00" y="0.00" type="traffic_light"/>
+        <node id="A3" x="0.00" y="-400.00" type="traffic_light"/>
+        <node id="B1" x="400.00" y="400.00" type="traffic_light"/>
+        <node id="B2" x="400.00" y="0.00" type="traffic_light"/>
+        <node id="B3" x="400.00" y="-400.00" type="traffic_light"/>
+        <node id="C1" x="800.00" y="400.00" type="traffic_light"/>
+        <node id="C2" x="800.00" y="0.00" type="traffic_light"/>
+        <node id="C3" x="800.00" y="-400.00" type="traffic_light"/>
+    </nodes>
+
+    <edges>
+        <edge id="A1_B1" from="A1" to="B1" priority="-1" numLanes="2" speed="13.89"/>
+        <edge id="B1_A1" from="B1" to="A1" priority="-1" numLanes="2" speed="13.89"/>
+        <edge id="B1_C1" from="B1" to="C1" priority="-1" numLanes="2" speed="13.89"/>
+        <edge id="C1_B1" from="C1" to="B1" priority="-1" numLanes="2" speed="13.89"/>
+        <edge id="A2_B2" from="A2" to="B2" priority="-1" numLanes="2" speed="13.89"/>
+        <edge id="B2_A2" from="B2" to="A2" priority="-1" numLanes="2" speed="13.89"/>
+        <edge id="B2_C2" from="B2" to="C2" priority="-1" numLanes="2" speed="13.89"/>
+        <edge id="C2_B2" from="C2" to="B2" priority="-1" numLanes="2" speed="13.89"/>
+        <edge id="A3_B3" from="A3" to="B3" priority="-1" numLanes="2" speed="13.89"/>
+        <edge id="B3_A3" from="B3" to="A3" priority="-1" numLanes="2" speed="13.89"/>
+        <edge id="B3_C3" from="B3" to="C3" priority="-1" numLanes="2" speed="13.89"/>
+        <edge id="C3_B3" from="C3" to="B3" priority="-1" numLanes="2" speed="13.89"/>
+        <edge id="A1_A2" from="A1" to="A2" priority="-1" numLanes="2" speed="13.89"/>
+        <edge id="A2_A1" from="A2" to="A1" priority="-1" numLanes="2" speed="13.89"/>
+        <edge id="A2_A3" from="A2" to="A3" priority="-1" numLanes="2" speed="13.89"/>
+        <edge id="A3_A2" from="A3" to="A2" priority="-1" numLanes="2" speed="13.89"/>
+        <edge id="B1_B2" from="B1" to="B2" priority="-1" numLanes="2" speed="13.89"/>
+        <edge id="B2_B1" from="B2" to="B1" priority="-1" numLanes="2" speed="13.89"/>
+        <edge id="B2_B3" from="B2" to="B3" priority="-1" numLanes="2" speed="13.89"/>
+        <edge id="B3_B2" from="B3" to="B2" priority="-1" numLanes="2" speed="13.89"/>
+        <edge id="C1_C2" from="C1" to="C2" priority="-1" numLanes="2" speed="13.89"/>
+        <edge id="C2_C1" from="C2" to="C1" priority="-1" numLanes="2" speed="13.89"/>
+        <edge id="C2_C3" from="C2" to="C3" priority="-1" numLanes="2" speed="13.89"/>
+        <edge id="C3_C2" from="C3" to="C2" priority="-1" numLanes="2" speed="13.89"/>
+    </edges>
+</net>

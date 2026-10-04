@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+    <tlLogic id="B1" type="static" programID="fixed" offset="0">
+        <phase duration="31" state="GGrrGGrr"/>
+        <phase duration="3" state="yyrryyrr"/>
+        <phase duration="31" state="rrGGrrGG"/>
+        <phase duration="3" state="rryyrryy"/>
+    </tlLogic>
+    <tlLogic id="B2" type="static" programID="fixed" offset="5">
+        <phase duration="31" state="GGrrGGrr"/>
+        <phase duration="3" state="yyrryyrr"/>
+        <phase duration="31" state="rrGGrrGG"/>
+        <phase duration="3" state="rryyrryy"/>
+    </tlLogic>
+    <tlLogic id="B3" type="static" programID="fixed" offset="10">
+        <phase duration="31" state="GGrrGGrr"/>
+        <phase duration="3" state="yyrryyrr"/>
+        <phase duration="31" state="rrGGrrGG"/>
+        <phase duration="3" state="rryyrryy"/>
+    </tlLogic>
+    <tlLogic id="A2" type="static" programID="fixed" offset="0">
+        <phase duration="31" state="GrrG"/>
+        <phase duration="3" state="yrry"/>
+        <phase duration="31" state="rGGr"/>
+        <phase duration="3" state="ryyr"/>
+    </tlLogic>
+    <tlLogic id="C2" type="static" programID="fixed" offset="2">
+        <phase duration="31" state="GrrG"/>
+        <phase duration="3" state="yrry"/>
+        <phase duration="31" state="rGGr"/>
+        <phase duration="3" state="ryyr"/>
+    </tlLogic>
+</additional>

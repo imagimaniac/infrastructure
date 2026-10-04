@@ -1,0 +1,2 @@
+scenario,duration_s,avg_wait_s,max_queue_veh,avg_queue_veh,travel_time_avg_s,stops_avg,throughput_veh_hr,fuel_l,co2_kg,vehicles_total
+baseline,3600,42.5,28.0,12.3,185.0,6.8,2400,125.4,328.0,2400

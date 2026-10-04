@@ -1,0 +1,2 @@
+scenario,duration_s,avg_wait_s,max_queue_veh,avg_queue_veh,travel_time_avg_s,stops_avg,throughput_veh_hr,fuel_l,co2_kg,vehicles_total
+adaptive,3600,28.9,18.5,7.9,152.0,4.2,2480,98.7,258.5,2480

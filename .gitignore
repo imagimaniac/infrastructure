@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.venv/
+venv/
+env/
+
+# OS
+.DS_Store
+
+# SUMO outputs
+data/tripinfo.xml
+data/summary.xml
+
+# Reports/figures (keep demo minimal)
+outputs/figures/*
+!outputs/figures/.gitkeep
+outputs/reports/*
+!outputs/reports/.gitkeep
+
+# Logs
+*.log
