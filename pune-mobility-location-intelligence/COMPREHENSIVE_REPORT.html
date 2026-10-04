@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pune Mobility Location Intelligence - Comprehensive Report</title>
+<style>
+* { margin:0; padding:0; box-sizing:border-box; }
+body { font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','Roboto','Oxygen','Ubuntu','Cantarell','Fira Sans','Droid Sans','Helvetica Neue',sans-serif; line-height:1.6; color:#1a1a1a; background:#fff; }
+.container { max-width:1100px; margin:0 auto; padding:40px 20px; }
+header { text-align:center; margin-bottom:60px; padding:40px 20px; background:linear-gradient(135deg,#1e3c72 0%,#2a5298 100%); color:white; border-radius:8px; }
+h1 { font-size:2.5rem; margin-bottom:10px; font-weight:700; }
+.subtitle { font-size:1.2rem; opacity:0.95; margin-bottom:15px; }
+.meta { font-size:0.9rem; opacity:0.9; }
+nav { background:#f8f9fa; padding:20px; border-radius:8px; margin-bottom:40px; border:1px solid #e9ecef; }
+nav h2 { margin-bottom:15px; color:#2a5298; font-size:1.3rem; }
+nav ul { list-style:none; display:grid; grid-template-columns:repeat(auto-fit,minmax(250px,1fr)); gap:10px; }
+nav a { text-decoration:none; color:#1e3c72; padding:8px 12px; display:block; border-left:3px solid #2a5298; background:white; border-radius:4px; transition:all 0.2s; }
+nav a:hover { background:#e7f1ff; padding-left:16px; }
+section { margin-bottom:60px; padding:30px; background:#fafafa; border-radius:8px; border:1px solid #e9ecef; }
+h2 { color:#1e3c72; font-size:2rem; margin-bottom:20px; padding-bottom:10px; border-bottom:3px solid #2a5298; }
+h3 { color:#2a5298; font-size:1.4rem; margin:25px 0 15px; }
+h4 { color:#1e3c72; font-size:1.1rem; margin:20px 0 12px; }
+p { margin-bottom:15px; text-align:justify; }
+ul,ol { margin:15px 0 15px 30px; }
+li { margin-bottom:8px; }
+table { width:100%; border-collapse:collapse; margin:20px 0; background:white; border-radius:8px; overflow:hidden; box-shadow:0 1px 3px rgba(0,0,0,0.1); }
+th { background:#1e3c72; color:white; padding:12px; text-align:left; font-weight:600; }
+td { padding:10px 12px; border-bottom:1px solid #e9ecef; }
+tr:hover { background:#f8f9fa; }
+tr:last-child td { border-bottom:none; }
+.img-container { text-align:center; margin:25px 0; background:white; padding:20px; border-radius:8px; box-shadow:0 1px 3px rgba(0,0,0,0.1); }
+img { max-width:100%; height:auto; border-radius:4px; }
+.caption { margin-top:10px; font-style:italic; color:#666; font-size:0.9rem; }
+.highlight { background:#e7f1ff; padding:20px; border-left:4px solid #2a5298; border-radius:4px; margin:20px 0; }
+.grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(280px,1fr)); gap:20px; margin:20px 0; }
+.card { background:white; padding:20px; border-radius:8px; box-shadow:0 1px 3px rgba(0,0,0,0.1); border-top:3px solid #2a5298; }
+.card h4 { margin-top:0; color:#1e3c72; }
+footer { text-align:center; padding:30px 20px; color:#666; border-top:1px solid #e9ecef; margin-top:40px; }
+</style>
+</head>
+<body>
+<header>
+  <h1>Pune Mobility Location Intelligence</h1>
+  <div class="subtitle">Mobility → Accessibility → Location Premium → Developer ROI</div>
+  <div class="meta">Comprehensive Technical & Strategic Report | POC (Synthetic Demo) | Public Portfolio</div>
+</header>
+<div class="container">
+<nav>
+  <h2>Table of Contents</h2>
+  <ul>
+    <li><a href="#exec">1. Executive Summary</a></li>
+    <li><a href="#problem">2. Problem Statement & Strategic Differentiator</a></li>
+    <li><a href="#framework">3. Conceptual Framework & Value Chain</a></li>
+    <li><a href="#scope">4. Scope, Objectives & Success Criteria</a></li>
+    <li><a href="#tech">5. Technology Stack & Tools</a></li>
+    <li><a href="#data">6. Data Sources & Traceability</a></li>
+    <li><a href="#method">7. Methodology, KPIs & Formulas</a></li>
+    <li><a href="#results">8. Simulation Results (Synthetic Demo)</a></li>
+    <li><a href="#roi">9. ROI Mapping & Location Premium</a></li>
+    <li><a href="#structure">10. Project Structure</a></li>
+    <li><a href="#reproduce">11. Reproducibility Guide</a></li>
+    <li><a href="#execsum">12. Executive Pitch for Stakeholders</a></li>
+    <li><a href="#limits">13. Limitations, Risks & Next Steps</a></li>
+    <li><a href="#conclusion">14. Conclusion</a></li>
+  </ul>
+</nav>
+<section id="exec">
+  <h2>1. Executive Summary</h2>
+  <p>This project demonstrates a data-driven approach to quantifying how traffic accessibility impacts real estate value in Pune. It bridges traffic microsimulation (Eclipse SUMO + TraCI) with location economics to produce developer-focused ROI insights. The core hypothesis: reducing junction-level wait times improves accessibility, creating a measurable location premium that translates to developer ROI.</p>
+  <div class="highlight"><strong>Key Takeaway:</strong> The differentiation lies in the lens (Mobility → Accessibility → Location Premium → Developer ROI) and rigorous traceability (every assumption tagged Assumed/Cited/Derived with URLs and retrieval dates).</div>
+</section>
+<section id="problem">
+  <h2>2. Problem Statement & Strategic Differentiator</h2>
+  <h3>2.1 Problem Statement</h3>
+  <p>Pune faces persistent peak-hour congestion across IT corridors (Wakad–Tathawade–Hinjewadi, Kharadi). While traffic studies report mobility KPIs and real estate studies cite location factors, these domains rarely connect quantitatively. Developers need defensible numbers linking accessibility improvements to business value.</p>
+  <h3>2.2 Strategic Differentiator</h3>
+  <p>Unlike generic traffic dashboards, this POC treats accessibility gain as location intelligence. It maps operational improvements to developer-relevant outcomes (absorption support, price/rental lift potential, realizations) with explicit sensitivity ranges.</p>
+</section>
+<section id="framework">
+  <h2>3. Conceptual Framework & Value Chain</h2>
+  <p>The project follows a four-layer value chain that explicitly connects engineering outputs to business outcomes.</p>
+  <div class="img-container">
+    <img src="outputs/figures/value_chain.png" alt="Value Chain Diagram">
+    <div class="caption">Figure 1: Value Chain - Mobility → Accessibility → Location Premium → Developer ROI</div>
+  </div>
+  <div class="grid">
+    <div class="card">
+      <h4>Mobility → Accessibility</h4>
+      <p>Microsimulation compares Fixed-Time vs Max-Pressure control. KPIs: avg wait, queue length, travel time, stops, throughput, fuel/emissions.</p>
+    </div>
+    <div class="card">
+      <h4>Accessibility → Location Premium</h4>
+      <p>Parameterized elasticity ranges (0.05–0.40% per 1% wait reduction). Marked as directional hypothesis with sensitivity analysis.</p>
+    </div>
+    <div class="card">
+      <h4>Location Premium → Developer ROI</h4>
+      <p>Translates to price/rental lift potential, absorption support, and monetized savings (VoT + Fuel + Emissions).</p>
+    </div>
+  </div>
+</section>
+<section id="scope">
+  <h2>4. Scope, Objectives & Success Criteria</h2>
+  <h3>4.1 Geographic Scope</h3>
+  <p>Primary: Wakad–Tathawade–Hinjewadi (West Pune IT). Secondary: Kharadi (East Pune). Initial focus on priority junction clusters.</p>
+  <h3>4.2 Objectives</h3>
+  <ul>
+    <li>Quantify accessibility impact of adaptive signals vs fixed-time</li>
+    <li>Map to developer ROI with traceable assumptions</li>
+    <li>Create reproducible, portfolio-ready POC</li>
+  </ul>
+  <h3>4.3 Success Criteria</h3>
+  <ul>
+    <li>Reproducible (synthetic-first, deterministic)</li>
+    <li>Fully traceable (Assumed/Cited/Derived)</li>
+    <li>Exhaustive documentation of tools/sources</li>
+    <li>Business-oriented narrative (WIFM for stakeholders)</li>
+  </ul>
+</section>
+<section id="tech">
+  <h2>5. Technology Stack & Tools</h2>
+  <table>
+    <thead><tr><th>Category</th><th>Tool/Library</th><th>Purpose</th><th>Notes</th></tr></thead>
+    <tbody>
+      <tr><td>Simulation</td><td>Eclipse SUMO</td><td>Traffic microsimulation</td><td>OSS (EPL-2.0)</td></tr>
+      <tr><td>Control API</td><td>TraCI (Python)</td><td>Real-time control & telemetry</td><td>Ships with SUMO</td></tr>
+      <tr><td>Language</td><td>Python 3.x</td><td>Core logic, analysis</td><td>Primary implementation</td></tr>
+      <tr><td>Data</td><td>pandas, numpy</td><td>Metrics, aggregation</td><td>OSS</td></tr>
+      <tr><td>Visualization</td><td>matplotlib, plotly</td><td>Plots & interactivity</td><td>Static + interactive</td></tr>
+      <tr><td>Dashboard</td><td>Streamlit</td><td>Local ROI dashboard</td><td>Executive UI</td></tr>
+      <tr><td>Tooling</td><td>venv, pip, Git</td><td>Env, deps, VCS</td><td>Local-first, traceable</td></tr>
+    </tbody>
+  </table>
+</section>
+<section id="data">
+  <h2>6. Data Sources & Traceability</h2>
+  <p>All third-party sources documented with URL, publisher, retrieval date (2026-10-04), type, license/terms, usage (Cited/Derived/Assumed), preprocessing notes. See <code>docs/data-sources.md</code>.</p>
+  <table>
+    <thead><tr><th>Category</th><th>Sources</th><th>Usage</th></tr></thead>
+    <tbody>
+      <tr><td>Real Estate Market</td><td>MagicBricks, Square Yards, ET Real Estate, FirstPremises, Tracxn, Namrata Group</td><td>Cited - micro-market context, directional ranges</td></tr>
+      <tr><td>Infra/Traffic/Govt</td><td>Hindustan Times, Indian Express, Pune Pulse, PMRDA, NHAI</td><td>Cited - bottlenecks, corridors, announcements</td></tr>
+      <tr><td>Technical</td><td>SUMO Docs (TraCI/Emissions), OSM</td><td>Cited - APIs, models, optional GIS</td></tr>
+      <tr><td>Assumptions</td><td>VoT, fuel, emissions cost, elasticity ranges</td><td>Assumed - bounded, sensitivity tested</td></tr>
+    </tbody>
+  </table>
+  <div class="highlight">Traceability enforced: <code>docs/assumptions-log.md</code> classifies every parameter as Assumed | Cited | Derived with rationale, ranges, sensitivity.</div>
+</section>
+<section id="method">
+  <h2>7. Methodology, KPIs & Formulas</h2>
+  <h3>7.1 Control Strategies</h3>
+  <ul>
+    <li><strong>Baseline:</strong> Fixed-time signal control (deterministic comparison)</li>
+    <li><strong>Adaptive:</strong> Max-Pressure - selects phase with highest pressure P_p = (inbound halting queues) - (outbound queues/capacity)</li>
+  </ul>
+  <h3>7.2 Key Performance Indicators</h3>
+  <table>
+    <thead><tr><th>KPI</th><th>Definition</th><th>Purpose</th></tr></thead>
+    <tbody>
+      <tr><td>Avg Wait Time (s/veh)</td><td>Avg stopped time</td><td>Core accessibility proxy</td></tr>
+      <tr><td>Queue Length (veh)</td><td>Halting vehicles</td><td>Bottleneck indicator</td></tr>
+      <tr><td>Travel Time (s/trip)</td><td>Trip duration</td><td>Network performance</td></tr>
+      <tr><td>Stops (avg)</td><td>Stop events</td><td>Reliability</td></tr>
+      <tr><td>Throughput (veh/hr)</td><td>Completed trips</td><td>Capacity</td></tr>
+      <tr><td>Fuel (L), CO2e (kg)</td><td>Consumption/emissions</td><td>Cost + ESG</td></tr>
+    </tbody>
+  </table>
+  <h3>7.3 Core Formulas</h3>
+  <ul>
+    <li><strong>% Reduction:</strong> (W_fixed - W_adapt)/W_fixed × 100</li>
+    <li><strong>VoT Saved:</strong> Δt_wait_hr × Vehicles_affected × VoT_INR/hr</li>
+    <li><strong>Fuel Saved:</strong> ΔFuel_L × FuelPrice_INR/L</li>
+    <li><strong>Emissions Saved:</strong> ΔCO2e_kg × SocialCost_INR/kg (social cost, separate)</li>
+    <li><strong>Accessibility→Premium (directional):</strong> ΔPrice% ∈ [ε_low, ε_high] × (% wait reduction), ε ∈ [0.05, 0.40]</li>
+  </ul>
+</section>
+<section id="results">
+  <h2>8. Simulation Results (Synthetic Demo)</h2>
+  <p>The following results come from the offline demo (synthetic network, no SUMO binary required) showing representative improvements under Max-Pressure control.</p>
+  <div class="img-container">
+    <img src="outputs/figures/avg_wait_comparison.png" alt="Avg Wait Comparison">
+    <div class="caption">Figure 2: Average Wait Time - Baseline vs Adaptive</div>
+  </div>
+  <div class="img-container">
+    <img src="outputs/figures/improvements_bar.png" alt="Improvements Bar">
+    <div class="caption">Figure 3: % Reductions across key metrics (Adaptive vs Baseline)</div>
+  </div>
+  <div class="img-container">
+    <img src="outputs/figures/queue_baseline.png" alt="Queue Timeseries">
+    <div class="caption">Figure 4: Queue dynamics visualization (baseline view)</div>
+  </div>
+  <table>
+    <thead><tr><th>Metric</th><th>Baseline</th><th>Adaptive</th><th>Reduction (%)</th></tr></thead>
+    <tbody>
+      <tr><td>Avg Wait Time (s/veh)</td><td>42.5</td><td>28.9</td><td>32.00%</td></tr>
+      <tr><td>Avg Queue Length (veh)</td><td>12.3</td><td>7.9</td><td>35.77%</td></tr>
+      <tr><td>Travel Time (s/trip)</td><td>185.0</td><td>152.0</td><td>17.84%</td></tr>
+      <tr><td>Fuel (L/peak hr)</td><td>125.4</td><td>98.7</td><td>21.29%</td></tr>
+      <tr><td>CO2e (kg/peak hr)</td><td>328.0</td><td>258.5</td><td>21.19%</td></tr>
+    </tbody>
+  </table>
+</section>
+<section id="roi">
+  <h2>9. ROI Mapping & Location Premium</h2>
+  <h3>9.1 Economic Savings (Per Peak Hour - Demo)</h3>
+  <table>
+    <thead><tr><th>Component</th><th>Value</th><th>Unit</th><th>Notes</th></tr></thead>
+    <tbody>
+      <tr><td>Fuel Saved</td><td>26.7</td><td>L/peak hr</td><td>Direct operational saving</td></tr>
+      <tr><td>CO2e Avoided</td><td>69.5</td><td>kg/peak hr</td><td>ESG (social cost tracked separately)</td></tr>
+      <tr><td>Avg Wait Reduction</td><td>32.00</td><td>%</td><td>Accessibility gain</td></tr>
+    </tbody>
+  </table>
+  <h3>9.2 Accessibility → Location Premium (Directional Ranges)</h3>
+  <div class="highlight"><strong>Important:</strong> Elasticity ε is treated as directional hypothesis (sparse Pune-specific junction-level studies). Results must be presented as sensitivity ranges, not point predictions.</div>
+  <table>
+    <thead><tr><th>Scenario</th><th>ε (per 1% wait reduction)</th><th>Implied Price Lift Potential</th></tr></thead>
+    <tbody>
+      <tr><td>Conservative (Low)</td><td>0.05%</td><td>~1.60%</td></tr>
+      <tr><td>Base (Default)</td><td>0.15%</td><td>~4.80%</td></tr>
+      <tr><td>Optimistic (High)</td><td>0.40%</td><td>~12.80%</td></tr>
+    </tbody>
+  </table>
+  <p>All ranges, defaults, and rationales documented in <code>docs/assumptions-log.md</code> with Assumed/Cited/Derived classification.</p>
+</section>
+<section id="structure">
+  <h2>10. Project Structure</h2>
+  <pre style="background:white;padding:20px;border-radius:8px;overflow-x:auto;font-size:0.85rem;"><code>infrastructure/pune-mobility-location-intelligence/
+├── README.md                    # Summarized pyramid (1.x.x)
+├── README_DETAIL.md             # Full chapters (1.1.1 onward)
+├── REPORT.html                  # This comprehensive report
+├── docs/
+│   ├── architecture.md
+│   ├── assumptions-log.md       # Assumed|Cited|Derived + ranges
+│   ├── data-sources.md           # Exhaustive with URLs/retrieval
+│   ├── methodology.md            # Formulas, KPIs, validation
+│   └── README_PYRAMID_GUIDE.md
+├── config/                      # SUMO XML configs
+├── data/                        # CSV outputs (demo committed)
+├── outputs/figures/             # Visualizations
+├── scripts/                     # Runners, demo, diagnostics
+├── utils/                       # Metrics, viz helpers
+├── references/                  # Research notes
+└── requirements.txt
+</code></pre>
+</section>
+<section id="reproduce">
+  <h2>11. Reproducibility Guide</h2>
+  <h3>11.1 Quick Start (Demo - works without SUMO)</h3>
+  <pre style="background:white;padding:15px;border-radius:4px;overflow-x:auto;"><code>cd ~/Projects/infrastructure/pune-mobility-location-intelligence
+.venv/bin/streamlit run scripts/dashboard.py</code></pre>
+  <h3>11.2 Full Simulation (with SUMO + TraCI)</h3>
+  <pre style="background:white;padding:15px;border-radius:4px;overflow-x:auto;"><code>cd ~/Projects/infrastructure/pune-mobility-location-intelligence
+source .venv/bin/activate
+pip install -r requirements.txt
+pip install traci sumolib  # if needed
+# Ensure SUMO binary available; set SUMO_HOME if required
+python scripts/generate_synthetic.py
+python scripts/baseline_fixed.py
+python scripts/adaptive_pressure.py
+streamlit run scripts/dashboard.py</code></pre>
+  <p><strong>Note:</strong> If SUMO binary missing, use <code>scripts/run_offline_demo.py</code> to regenerate demo CSVs.</p>
+</section>
+<section id="execsum">
+  <h2>12. Executive Pitch for Stakeholders</h2>
+  <div class="grid">
+    <div class="card">
+      <h4>PMC / Traffic Police</h4>
+      <p>Measurable KPIs, improved mobility, data-driven prioritization of junction upgrades.</p>
+    </div>
+    <div class="card">
+      <h4>Infrastructure Consultancy</h4>
+      <p>Defensible numbers for DPRs, client-ready dashboard, traceable assumptions.</p>
+    </div>
+    <div class="card">
+      <h4>Real Estate Developers</h4>
+      <p>Location intelligence, absorption support, quantified premium ranges tied to accessibility.</p>
+    </div>
+    <div class="card">
+      <h4>Commuters & Businesses</h4>
+      <p>Time/fuel savings, improved reliability, reduced peak friction.</p>
+    </div>
+    <div class="card">
+      <h4>ESG / Policy</h4>
+      <p>Quantified emissions avoided with social cost separated transparently.</p>
+    </div>
+  </div>
+  <div class="highlight"><strong>Pitch Angle:</strong> "Quantify reliability gain as location premium — that's the lens developers don't typically see."</div>
+</section>
+<section id="limits">
+  <h2>13. Limitations, Risks & Next Steps</h2>
+  <h3>13.1 Limitations</h3>
+  <ul>
+    <li>Currently uses synthetic network/demand (demo) — not full Pune GIS calibrated with real counts</li>
+    <li>Accessibility elasticity is directional (literature gap) — always presented as ranges</li>
+    <li>Junction-level control focus (network-wide effects not fully modeled)</li>
+    <li>Fuel/emissions depend on SUMO model availability</li>
+  </ul>
+  <h3>13.2 Mitigations</h3>
+  <ul>
+    <li>Explicit Assumed/Cited/Derived tagging; sensitivity analysis</li>
+    <li>Conservative defaults, bounded ranges</li>
+    <li>Separation of cash (VoT+Fuel) vs social (emissions) in reporting</li>
+    <li>Full reproducibility and traceability</li>
+  </ul>
+  <h3>13.3 Next Steps</h3>
+  <ol>
+    <li>Model real corridor (OSM slice) for Wakad–Hinjewadi/Tathawade</li>
+    <li>Calibrate with plausible demand; run with SUMO binary</li>
+    <li>Refine max-pressure implementation (phase constraints, min/max green)</li>
+    <li>Validate elasticity references if available; document uncertainty</li>
+    <li>Add route/corridor visualizations for stronger pitch</li>
+  </ol>
+</section>
+<section id="conclusion">
+  <h2>14. Conclusion</h2>
+  <p>This POC successfully demonstrates a strategic approach to connecting mobility performance with developer ROI. By combining rigorous microsimulation, explicit traceability, and business-oriented framing, it creates a defensible narrative for Pune infrastructure and real estate stakeholders. The project is ready to evolve from synthetic proof to calibrated real-corridor analysis.</p>
+  <div class="highlight"><strong>Project Link:</strong> <a href="https://github.com/imagimaniac/infrastructure/tree/main/pune-mobility-location-intelligence" target="_blank">https://github.com/imagimaniac/infrastructure/tree/main/pune-mobility-location-intelligence</a></div>
+</section>
+</div>
+<footer>
+  <p>Generated from Pune Mobility Location Intelligence POC | &copy; Portfolio - Infrastructure, Mobility & Location Intelligence</p>
+</footer>
+</body>
+</html>
